@@ -43,7 +43,7 @@ services:
     restart: always
     environment:
       ENCRYPTION_SECRET: '${ENCRYPTION_SECRET}'
-      DATABASE_URL: postgresql://typebot:typebot@typebot-db:5432/typebot
+      DATABASE_URL: 'postgresql://typebot:typebot@typebot-db:5432/typebot'
       NEXTAUTH_URL: '${NEXTAUTH_URL}'
       NEXT_PUBLIC_VIEWER_URL: '${NEXT_PUBLIC_VIEWER_URL}'
       ADMIN_EMAIL: '${ADMIN_EMAIL}'
